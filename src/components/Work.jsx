@@ -11,6 +11,13 @@ function Work() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <p className="work__meta">{project.year}</p>
+              {project.url && (
+                <p className="work__link-wrap">
+                  <a href={project.url} target="_blank" rel="noreferrer">
+                    View project
+                  </a>
+                </p>
+              )}
             </article>
           ))}
         </div>

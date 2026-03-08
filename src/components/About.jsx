@@ -4,10 +4,10 @@ function About() {
       <div className="container">
         <h2>About</h2>
         <p>
-          This is a placeholder for a personal introduction. Use this space to
-          describe your background, design approach, and what you are building in
-          2026.
+          When design, interaction, and code are treated as one system,
+          the result is a coherent digital experience rather than a collection of features.
         </p>
+        <p>It reflects more than twenty years of work across design and development — from early Flash experiments through modern front-end systems to a multidisciplinary practice at <a href="https://www.deltoidstudio.com">DELTOID STUDIO</a>.</p>
       </div>
     </section>
   );

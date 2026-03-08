@@ -1,24 +1,35 @@
 const projects = [
   {
     id: 1,
-    title: 'Editorial Portfolio Rebuild',
+    title: 'HOSTELHOP',
     description:
-      'A refined portfolio concept focused on narrative case studies and strong typographic rhythm.',
-    year: '2026'
+      'Social travel app concept for finding and sharing hostel experiences across destinations.',
+    year: 'Product Design',
+    url: 'https://ivo.gregurec.info/'
   },
   {
     id: 2,
-    title: 'Interactive Brand Story',
+    title: 'RED OCHER',
     description:
-      'Scroll-based storytelling experience with motion direction and rich transitions.',
-    year: '2025'
+      'Branding and UI direction for a concept e-commerce brand with an editorial visual tone.',
+    year: 'Branding + UI',
+    url: 'https://ivo.gregurec.info/'
   },
   {
     id: 3,
-    title: 'Design System Toolkit',
+    title: 'VAVA',
     description:
-      'Modular components and documentation templates for fast product iteration.',
-    year: '2024'
+      'Website design and front-end implementation with motion-focused interactions.',
+    year: 'Web Design + Development',
+    url: 'https://ivo.gregurec.info/'
+  },
+  {
+    id: 4,
+    title: 'SPECTRACULAR',
+    description:
+      'Accessibility-first platform concept supporting safe meetings between blind and sighted people.',
+    year: 'UX + Accessibility',
+    url: 'https://ivo.gregurec.info/'
   }
 ];
 
