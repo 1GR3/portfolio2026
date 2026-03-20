@@ -340,9 +340,16 @@ p {
 
     h2 {
       color: white;
+      text-shadow: 4px 4px 0 var(--accent);
     }
 
-    p:first-of-type::first-letter {
+    .about-text {
+      max-width: 44ch;
+      margin: 2rem 0;
+      font-weight: 500;
+    }
+
+    .about-text .initial {
       font-size: 3.5rem;
       font-weight: 600;
       float: left;
@@ -351,7 +358,33 @@ p {
       color: black;
       box-shadow: 0 1rem 0 var(--accent);
     }
+
+    .about-text .about-content {
+      display: inline;
+      padding-left: 0.2rem;
+    }
   }
+}
+
+.twenty-years {
+  position: relative;
+  width: min(100%, clamp(16rem, 44vw, 34rem));
+  aspect-ratio: 1 / 1;
+  margin: 0 auto 2rem;
+}
+
+.twenty-years__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .twenty-years {
+    width: min(100%, 28rem);
+    margin-bottom: 1.5rem;
+  }
+}
 }
 
 .work__grid {
