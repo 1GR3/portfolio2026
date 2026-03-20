@@ -219,6 +219,35 @@ p {
   pointer-events: none;
 }
 
+.hero-reveal-rings-layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  z-index: 3;
+  pointer-events: none;
+  overflow: visible;
+  transform-origin: center center;
+}
+
+.hero-reveal-rings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  transform: translate(-50%, -50%);
+}
+
+.hero-reveal-rings__arc {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.9;
+  stroke-linecap: butt;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.95;
+}
+
 .hero-i-rect {
   --i-rect-width: 40vw;
   --i-pointer-scale: 1;
